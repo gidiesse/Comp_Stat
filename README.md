@@ -5,7 +5,7 @@ I chose to work on a project on Python to gain some experience reading and writi
 
 I was able to run all the code present in the xPINNs folder. Once it came to expanding the project, I wanted to use PINNs with both the Lotka-Volterra Equations and also the Lorenz Equations. However, the code from the paper was hard-coded for a 1D problem. I did try and modify it to model the Lotka-Volterra problem, ie a 2D problem, but I was unable to do so successfully as the code was quite complicated and not very flexible. I therefore did some research online and came across the Deep XDE library (https://deepxde.readthedocs.io/en/latest/) which is used for PINNs. There were some problems here as well, but overall I managed better with this library. 
 
-The folder called "lorenz" contains a notebook where I successfully used PINNs to model the Lorenz System. 
+The folder called '''lorenz''' contains a notebook where I successfully used PINNs to model the Lorenz System. 
 
 The folders called "lotka_volterra" and "oscillator" contain notebooks where I tried to use PINNs to model the Lotka-Volterra and 1D Oscillator respectively. Unfortunately, these attempts were not as successful and I could not get the PINN parameter estimation to converge to the correct values. I spent a lot of time on this, but ultimately it was not working and so I decided not to bring this to the presentation. 
 
